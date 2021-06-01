@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+.capa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(rgba(20,20,20,0),rgba(20,20,20,1)), url(../img/capa.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+}
+
+.home-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.home-menu h2{
+    font-family: 'Arial Black';
+    color: red;
+}
+
+.menu{
+    font-size: 13px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: whitesmoke;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.opcoes a{
+    color: whitesmoke;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 3%;
+    width: 50%;
+    color: whitesmoke;
+}
+
+.informacoes img{
+    width: 70%;
+    padding-bottom: 5%;
+}
+
+.informacoes p{
+    padding-bottom: 5%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+
+.botoes button{
+    border-radius: 7px;
+    width: 150px;
+    height: 40px;
+}
+
+.botao1{
+    border: none;
+    background: white;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.botao1 i{
+    margin-right: 10%;
+}
+
+.botao1:hover{
+    background: rgba(255,255,255,.80);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.botao2:hover{
+    background: rgba(0,0,0,.20);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.botao2{
+    border: none;
+    background: rgba(255,255,255,.25);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.botao2 i{
+    margin-right: 10%;
+}
+
+.carrosel{
+    padding: 0 0 0 3%;
+}
+
+.carrosel h3{
+    color: whitesmoke;
+    padding-bottom: 1%;
+}

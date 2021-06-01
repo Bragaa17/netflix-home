@@ -1,0 +1,44 @@
+@media (max-width:760px){
+    .home-menu{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-menu h2{
+        margin: 2% 0;
+    }
+    .menu{
+        padding-bottom: 2%;
+        justify-content: space-evenly;
+        font-size: 13px;
+        width: 100%;
+    }
+    .opcoes{
+        display: none;
+    }
+    .informacoes{
+        padding: 1%;
+        align-items: center;
+    }
+    .informacoes p{
+        display: none;
+    }
+    .botoes button{
+        height: 20px;
+        width: 80px;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    .carrosel h3{
+        font-size: 14px;
+    }
+    .botoes{
+        width: 100%;
+    }
+    .botao2{
+        font-size: 10px;
+    }
+    .botao1{
+        font-size: 10px;
+    }
+}
